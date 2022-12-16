@@ -1,4 +1,5 @@
 
+
 def decrypt(self, ciphertext):
         try:
             with open(ciphertext, 'rb') as src:
