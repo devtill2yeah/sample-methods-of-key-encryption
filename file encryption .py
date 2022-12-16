@@ -1,4 +1,6 @@
 
+
+
 def encrypt(self, filename):
     iv = get_random_bytes(16)
     cipher = AES.new(self.K4, AES.MODE_GCM, iv)
@@ -20,3 +22,5 @@ def encrypt(self, filename):
     except (IOError, OSError):
         raise IOError("Cannot open the file to encrypt")
 
+
+        
