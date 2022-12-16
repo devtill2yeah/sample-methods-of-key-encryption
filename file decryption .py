@@ -1,5 +1,6 @@
 
 
+
 def decrypt(self, ciphertext):
         try:
             with open(ciphertext, 'rb') as src:
@@ -19,3 +20,4 @@ def decrypt(self, ciphertext):
         except (IOError, OSError):
             raise IOError("Cannot open the file to decrypt")
 
+        
